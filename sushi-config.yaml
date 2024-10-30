@@ -3,33 +3,44 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: fhir.vdor
+id: hl7.fhir.us.vdor
 canonical: http://example.org
-name: VdorIG
+name: VDOR
 title: "Violent Death and Overdose Reporting (VDOR) FHIR Implementation Guide"
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
-version: 0.1.0
+version: 0.1.0-cibuild
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
 releaseLabel: ci-build
 license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: Georgia Tech Research Institute
-  url: https://www.gtri.gatech.edu/
+  name: CDC NCHS
+  url: http://cdc.gov/nchs
   # email: test@example.org
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 #
-# dependencies:
-#   hl7.fhir.us.core: 3.1.0
-#   hl7.fhir.us.mcode:
-#     id: mcode
-#     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
-#     version: 1.0.0
+dependencies:
+  hl7.fhir.us.core: 
+    version: 5.0.1
+    id: hl7fhiruscore
+  us.cdc.phinvads:
+    version: 0.12.0
+    uri: http://fhir.org/packages/us.cdc.phinvads/ImplementationGuide/us.cdc.phinvads
+    id: uscdcphinvads
+  hl7.fhir.us.vr-common-library: 
+    version: 2.0.0 
+    id: hl7fhirusvrcommonlibrary
+  hl7.fhir.us.vrdr: 
+    version: 3.0.0 
+    id: hl7fhirusvrdr
+  hl7.fhir.us.mdi:
+    version: 2.0.0-snapshot1
+    id: hl7fhirusmdi
 #
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
