@@ -104,3 +104,8 @@ Description: "Code system defined for use in VDOR IG artifacts."
 * #ts-marijuana "Marijuana Test Result"
 * #ts-musclerelaxers" "Muscle Relaxers Test Result"
 * #ts-opiate "Opiate Test Result"
+
+
+// Overdose Category Codes
+* #od-lnka "Time/Date Last Known Alive and Well Pre-overdose"
+* #od-ffu "Time/Date First Found Unresponsive"
