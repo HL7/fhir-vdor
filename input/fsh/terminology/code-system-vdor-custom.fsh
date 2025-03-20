@@ -105,7 +105,30 @@ Description: "Code system defined for use in VDOR IG artifacts."
 * #ts-musclerelaxers" "Muscle Relaxers Test Result"
 * #ts-opiate "Opiate Test Result"
 
+// ------------------------------------- //
 
 // Overdose Category Codes
+* #od-type-of-od "Type of Overdose/poisoning"
 * #od-lnka "Time/Date Last Known Alive and Well Pre-overdose"
 * #od-ffu "Time/Date First Found Unresponsive"
+* #od-previous-overdose "Previous Overdose"
+* #od-previous-overdose-timing "Timing of Previous Overdose"
+
+// Type of Overdose/poisoning Value Codes
+* #od-type-of-od-1 "Overdose related to substance use/misuse"
+* #od-type-of-od-2 "Victim unintentionally takes a drug or wrong dosage"
+* #od-type-of-od-3 "Overmedication"
+* #od-type-of-od-4 "Took prescribed dosage"
+* #od-type-of-od-5 "Other, please add information to narrative"
+* #od-type-of-od-6 "Unknown" // TODO: Switch to SNOMED unk?
+
+// Previous Overdose Value Codes
+* #od-previous-overdose-1 "No previous overdose reported"
+* #od-previous-overdose-2 "Previous OD within the last month"
+* #od-previous-overdose-3 "Previous OD occurred between a month and a year ago"
+* #od-previous-overdose-4 "Previous OD occurred more than a year ago"
+* #od-previous-overdose-5 "Previous OD, timing unknown"
+
+// Previous Overdose Timing Component Value Codes
+* #od-previous-overdose-timing-1 "Previous overdose occurred between 0-2 days earlier"
+* #od-previous-overdose-timing-2 "Previous overdose occurred between 3-7 days earlier"
