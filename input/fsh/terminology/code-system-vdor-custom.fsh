@@ -113,6 +113,10 @@ Description: "Code system defined for use in VDOR IG artifacts."
 * #od-ffu "Time/Date First Found Unresponsive"
 * #od-previous-overdose "Previous Overdose"
 * #od-previous-overdose-timing "Timing of Previous Overdose"
+* #od-recent-opiod-use-relapse "Recent Opiod Use Relapse"
+* #od-evidence-of-drug-use "Evidence of Drug Use"
+* #od-bystanders-present "Bystander(s) Present"
+* #od-use-of-prescription-morphine "Use of Prescription Morphine"
 
 // Type of Overdose/poisoning Value Codes
 * #od-type-of-od-1 "Overdose related to substance use/misuse"
@@ -132,3 +136,23 @@ Description: "Code system defined for use in VDOR IG artifacts."
 // Previous Overdose Timing Component Value Codes
 * #od-previous-overdose-timing-1 "Previous overdose occurred between 0-2 days earlier"
 * #od-previous-overdose-timing-2 "Previous overdose occurred between 3-7 days earlier"
+
+// Recent Opioid Use Relapse Values
+* #od-recent-opioid-use-relapse-0 "No evidence"
+* #od-recent-opioid-use-relapse-1 "Relapse occurred < 2 weeks before fatal overdose"
+* #od-recent-opioid-use-relapse-2 "Relapse occurred between 2 weeks and < 3 months before fatal overdose"
+* #od-recent-opioid-use-relapse-3 "Relapse mentioned, timing unclear"
+
+// Bystander(s) Present Value Codes
+* #od-bystanders-present-1 "No bystanders present"
+* #od-bystanders-present-2 "1 bystander present"
+* #od-bystanders-present-3 "Multiple bystanders present"
+* #od-bystanders-present-4 "Bystanders present, unknown number"
+* #od-bystanders-present-5 "Unknown if bystander present"
+
+// Use of Prescription Morphine Value Codes
+* #od-use-of-prescription-morphine-1 "None"
+* #od-use-of-prescription-morphine-2 "Evidence of morphine prescription dispensed within last 30 days"
+* #od-use-of-prescription-morphine-3 "Prescription morphine found at the scene (vials or tablets)"
+* #od-use-of-prescription-morphine-4 "Both prescription and scene evidence of morphine prescription"
+* #od-use-of-prescription-morphine-5 "Other evidence (include in narrative)"
