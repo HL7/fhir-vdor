@@ -119,6 +119,7 @@ Description: "Code system defined for use in VDOR IG artifacts."
 * #od-bystanders-present "Bystander(s) Present"
 * #od-use-of-prescription-morphine "Use of Prescription Morphine"
 * #od-current-or-past-drug-misuse "Current or Past Prescription Drug Misuse or Illicit Drug Use"
+* #od-recent-emergency-department-visit "Recent Emergency Department Visit or Urgent Care Visit"
 
 // Type of Overdose/poisoning Value Codes
 * #od-type-of-od-1 "Overdose related to substance use/misuse"
@@ -176,3 +177,20 @@ Description: "Code system defined for use in VDOR IG artifacts."
 * #od-drug-misuse-9 "Cannabis (marijuana)"
 * #od-drug-misuse-10 "Substance unspecified"
 * #od-drug-misuse-11 "Other substance - specify"
+
+// Types of Substance Use Disorder Treatments
+* #od-types-of-substance-use-disorder-treatment-1 "Inpatient/outpatient rehabilitation"
+* #od-types-of-substance-use-disorder-treatment-2 "Medication-assisted treatment, or MAT (with cognitive/behavioral therapy)"
+* #od-types-of-substance-use-disorder-treatment-3 "Medication-assisted treatment, or MAT (without cognitive/behavioral therapy)"
+* #od-types-of-substance-use-disorder-treatment-4 "Medication-assisted therapy, or MAT (cognitive/behavioral therapy unknown)"
+* #od-types-of-substance-use-disorder-treatment-5 "Cognitive/behavioral therapy"
+* #od-types-of-substance-use-disorder-treatment-6 "Narcotics Anonymous"
+* #od-types-of-substance-use-disorder-treatment-7 "Other – specify"
+
+// Recent Emergency Department Visit values
+* #od-recent-emergency-department-visit-0 "No evidence of ED or urgent care visit within last year before death"
+* #od-recent-emergency-department-visit-1 "ED or urgent care visit within the last month before death"
+* #od-recent-emergency-department-visit-2 "ED or urgent care visit between one and three months before death"
+* #od-recent-emergency-department-visit-3 "ED or urgent care visit between three and six months before death"
+* #od-recent-emergency-department-visit-4 "ED or urgent care visit between six months and one year before death"
+* #od-recent-emergency-department-visit-5 "Recent ED or urgent care visit noted, timing unknown"
