@@ -5,6 +5,7 @@ Title: "VDOR Overdose - Current or Past Prescription Drug Misuse or Illicit Drug
 Description: "Defines constraints on the Observation resource to represent an Overdose profile."
 * ^experimental = true
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
+* obeys misuse-1
 * extension contains
     vdor-drug-misuse named drug-misuse 1..*
 * extension[drug-misuse] ^short = "Indicated prescription drugs misused or illicit drugs used."
@@ -15,3 +16,8 @@ Description: "Defines constraints on the Observation resource to represent an Ov
 * note MS
 * note.text MS
 * note.text ^short = "Narrative. If drug misuse extension contains other substance, this must be completed."
+
+Invariant: misuse-1
+Description: "If no drug misuse is indicated, extension must not contain additional items."
+* severity = #error
+* expression = "'od-drug-misuse-1' in extension.valueCodeableConcept.coding.code implies extension.count() = 1"
