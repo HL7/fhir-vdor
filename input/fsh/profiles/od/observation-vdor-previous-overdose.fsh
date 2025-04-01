@@ -22,4 +22,4 @@ Description: "Defines constraints on the Observation resource to represent an Ov
 * component[timing]
   * code = vdor-custom-code-system#od-previous-overdose-timing "Timing of Previous Overdose"
   * value[x] only CodeableConcept
-  * value[x] from vdor-previous-overdose-vs (required) 
+  * value[x] from vdor-previous-overdose-timing-vs (required) 
