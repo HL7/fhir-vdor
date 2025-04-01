@@ -8,7 +8,7 @@ Description: "Defines constraints on the Observation resource to represent an Ov
 * category MS
 * category = vdor-custom-code-system#overdose "Overdose"
 * code MS
-* code = vdor-custom-code-system#od-lnka "Previous Overdose"
+* code = vdor-custom-code-system#od-previous-overdose "Previous Overdose"
 * value[x] only CodeableConcept
 * value[x] from vdor-previous-overdose-vs (required)
 
