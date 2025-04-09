@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.us.vdor
-canonical: http://hl7.org/fhir/us/fhir-vdor
+canonical: http://hl7.org/fhir/us/vdor
 name: VDOR
 title: "Violent Death and Overdose Reporting (VDOR) FHIR Implementation Guide"
 # description: Example Implementation Guide for getting started with SUSHI
