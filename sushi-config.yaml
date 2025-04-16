@@ -39,7 +39,7 @@ dependencies:
     version: 3.0.0 
     id: hl7fhirusvrdr
   hl7.fhir.us.mdi:
-    version: 2.0.0-snapshot1
+    version: 2.0.0-snapshot2
     id: hl7fhirusmdi
 #
 #

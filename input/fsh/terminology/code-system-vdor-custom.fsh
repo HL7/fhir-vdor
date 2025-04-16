@@ -194,3 +194,22 @@ Description: "Code system defined for use in VDOR IG artifacts."
 * #od-recent-emergency-department-visit-3 "ED or urgent care visit between three and six months before death"
 * #od-recent-emergency-department-visit-4 "ED or urgent care visit between six months and one year before death"
 * #od-recent-emergency-department-visit-5 "Recent ED or urgent care visit noted, timing unknown"
+
+// Toxicology Summary Components
+* #tox-summary-component-tested "Test Performed"
+* #tox-summary-component-results "Results"
+* #tox-summary-component-bac "Blood Alcohol Content"
+* #tox-summary-component-co-source "Source of Carbon Monoxide"
+
+// Toxicology Summary Tested VS
+* #tox-summary-tested-1 "Tested"
+* #tox-summary-tested-2 "Not Tested"
+* #tox-summary-tested-9 "Unknown"
+
+// Toxicology Summary Results VS
+* #tox-summary-results-1 "Present"
+* #tox-summary-results-2 "Not Present"
+* #tox-summary-results-8 "Not Applicable"
+* #tox-summary-results-9 "Unknown"
+
+// Toxicology Summary CO Source VS
