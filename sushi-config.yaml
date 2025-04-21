@@ -42,6 +42,13 @@ dependencies:
     version: 2.0.0-snapshot2
     id: hl7fhirusmdi
 groups:
+  BundlesAndOtherCoreProfiles:
+    name: Core Profiles
+    description: Core profiles such as Bundle, Composition, and Patient.
+    resources:
+    - vdor-document-bundle
+    - vdor-composition
+    - vdor-decedent
   ToxicologySummaryProfiles:
     name: Toxicology Summary Profiles
     description: Profiles in the Toxicology Summary category.
