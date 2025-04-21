@@ -41,6 +41,29 @@ dependencies:
   hl7.fhir.us.mdi:
     version: 2.0.0-snapshot2
     id: hl7fhirusmdi
+groups:
+  ToxicologySummaryProfiles:
+    name: Toxicology Summary Profiles
+    description: Profiles in the Toxicology Summary category.
+    resources:
+    - vdor-toxicology-summary
+    - vdor-toxicology-summary-alcohol
+    - vdor-toxicology-summary-carbon-monoxide
+  OverdoseProfiles:
+    name: Overdose Profiles
+    description: Profiles in the Overdose category.
+    resources:
+    - vdor-od-bystanders-present
+    - vdor-od-current-or-past-drug-misuse
+    - vdor-od-evidence-of-drug-use
+    - vdor-od-first-found-unresponsive
+    - vdor-od-lnka
+    - vdor-od-previous-overdose
+    - vdor-od-recent-emergency-department-visit 
+    - vdor-od-recent-opiod-use-relapse
+    - vdor-od-treatment-for-substance-use-disorder
+    - vdor-od-type-of-overdose
+    - vdor-od-use-of-prescription-morphine
 #
 #
 # The pages property corresponds to IG.definition.page. SUSHI can

@@ -1,19 +1,20 @@
-Profile: VDORToxicologySummaryAlcohol
+Profile: VDORToxicologySummaryCarbonMonoxide
 Parent: vdor-toxicology-summary
-Id: vdor-toxicology-summary-alcohol
-Title: "VDOR Toxicology Summary Alcohol Tested Observation"
+Id: vdor-toxicology-summary-carbon-monoxide
+Title: "VDOR Toxicology Summary Carbon Monoxide Tested Observation"
 Description: "Defines constraints on the Observation resource to represent the set of Toxicology Summary section of SUDORS."
 * ^experimental = true
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * category MS
 * category = vdor-custom-code-system#toxicology "Toxicology"
 * code MS
-* code = vdor-custom-code-system#ts-alcohol "Alcohol Test and BAC"
+* code = vdor-custom-code-system#ts-carbonmonoxide "Carbon Monoxide Test Result and Source"
 * component contains
-    blood-alcohol-content 0..1 MS
-* component[blood-alcohol-content]
-  * code = vdor-custom-code-system#tox-summary-component-bac "Blood Alcohol Content"
-  * value[x] only Quantity
+    source 0..1 MS
+* component[source]
+  * code = vdor-custom-code-system#tox-summary-component-co-source "Source of Carbon Monoxide"
+  * value[x] only CodeableConcept
+  * value[x] from vdor-tox-summary-carbon-monoxide-source-vs (required)
 
 /*
 Tested for alcohol

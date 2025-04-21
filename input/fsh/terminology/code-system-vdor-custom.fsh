@@ -213,3 +213,10 @@ Description: "Code system defined for use in VDOR IG artifacts."
 * #tox-summary-results-9 "Unknown"
 
 // Toxicology Summary CO Source VS
+* #tox-summary-carbon-monoxide-1 "Motorized vehicle (e.g., car, truck, bus, motorcycle, boat)"
+* #tox-summary-carbon-monoxide-2 "Other"
+* #tox-summary-carbon-monoxide-3 "Gas tool/appliance/heater"
+* #tox-summary-carbon-monoxide-4 "Grill or barbeque (gas or charcoal, includes hibachi grills)"
+* #tox-summary-carbon-monoxide-5 "Fire (e.g., house fire)"
+* #tox-summary-carbon-monoxide-8 "Not applicable"
+* #tox-summary-carbon-monoxide-9 "Unknown"
