@@ -1,0 +1,7 @@
+Extension: VDORFirearmStoredLockedExtension
+Id: vdor-firearm-stored-locked-extension
+Title: "VDOR Firearm Stored Locked Extension"
+Description: "Defines an extension for the Firearm profile to capture information if the firearm was stored locked."
+* value[x] 1..1 MS
+* value[x] only CodeableConcept
+* value[x] from $vrdr-yes-no-unk-na-vs (extensible)

@@ -51,11 +51,15 @@ groups:
     - vdor-decedent
   ToxicologySummaryProfiles:
     name: Toxicology Summary Profiles
-    description: Profiles in the Toxicology Summary category.
+    description: Profiles in the Toxicology category related to the Toxicology Summary section.
     resources:
     - vdor-toxicology-summary
     - vdor-toxicology-summary-alcohol
     - vdor-toxicology-summary-carbon-monoxide
+  Weapons:
+    name: Weapons Profiles
+    description: Profiles in the Weapons category.
+    # resources:
   OverdoseProfiles:
     name: Overdose Profiles
     description: Profiles in the Overdose category.
@@ -71,6 +75,13 @@ groups:
     - vdor-od-treatment-for-substance-use-disorder
     - vdor-od-type-of-overdose
     - vdor-od-use-of-prescription-morphine
+  NVDRSExtensions:
+    name: NVDRS Extensions
+    description: Extensions for management of records in the NVDRS/SUDORS platform.
+    resources:
+    - nvdrs-force-new-record-extension
+    - nvdrs-overwrite-conflicts-extension
+    - nvdrs-incident-year-extension
 #
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
