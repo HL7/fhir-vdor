@@ -8,7 +8,7 @@ Description: "Defines constraints on the Observation resource to represent the s
 * category MS
 * category = vdor-custom-code-system#toxicology "Toxicology"
 * code MS
-* code = vdor-custom-code-system#ts-alcohol "Alcohol Test and BAC"
+* code = vdor-custom-code-system#ts-alcohol "Alcohol Test Result (BAC)"
 * component contains
     blood-alcohol-content 0..1 MS
 * component[blood-alcohol-content]

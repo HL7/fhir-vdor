@@ -12,9 +12,10 @@ Description: "Defines constraints on the Observation resource to represent an Ov
 * category = vdor-custom-code-system#overdose "Overdose"
 * code MS
 * code = vdor-custom-code-system#od-treatment-for-substance-use-disorder "Treatment for Substance Use Disorder"
+* subject 1.. MS
+* subject only Reference(VDORDecedent)
 * value[x] only CodeableConcept
 * value[x] from vdor-treatment-for-substance-use-disorder-vs
-
 * note MS
 * note.text MS
 * note.text ^short = "Narrative. If type of treament extension contains other, this must be completed."

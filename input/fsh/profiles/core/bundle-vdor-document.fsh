@@ -14,5 +14,5 @@ Description: "Defines constraints to the Bundle resource in order to package VDO
 
 Invariant: vdor-bdl-1
 Description: "If Bundle is of type document, the first resource in Bundle.entry SHALL be of type Composition conforming to the VDOR Composition Profile"
-Expression: "entry.first().resource.meta.profile.contains('http://hl7.org/fhir/us/fhir-vdor/StructureDefinition/vdor-composition')"
+Expression: "entry.first().resource.meta.profile.contains('http://hl7.org/fhir/us/vdor/StructureDefinition/vdor-composition')"
 Severity: #error

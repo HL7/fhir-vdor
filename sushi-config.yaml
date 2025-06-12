@@ -4,20 +4,27 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.us.vdor
-canonical: http://hl7.org/fhir/us/fhir-vdor
+canonical: http://hl7.org/fhir/us/vdor
 name: VDOR
 title: "Violent Death and Overdose Reporting (VDOR) FHIR Implementation Guide"
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
+extension:
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
+    valueCode: pher 
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+    valueCode: draft
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
+    valueInteger: 0
 version: 0.1.0-cibuild
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
-releaseLabel: ci-build
+releaseLabel: CI Build
 license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: CDC NCHS
-  url: http://cdc.gov/nchs
+  name: HL7 International / Public Health
+  url: http://www.hl7.org/Special/committees/pher
   # email: test@example.org
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
@@ -41,9 +48,6 @@ dependencies:
   hl7.fhir.us.mdi:
     version: 2.0.0
     id: hl7fhirusmdi
-  fhir.nvdrs:
-    version: dev
-    id: fhirnvdrs
 groups:
   BundlesAndOtherCoreProfiles:
     name: Core Profiles

@@ -8,5 +8,6 @@ Description: "Treatment for Substance Use Disorder - Example 01 - Multiple treat
 * status = $FHIR-Observation-Status#final
 * category = vdor-custom-code-system#overdose "Overdose"
 * code = vdor-custom-code-system#od-treatment-for-substance-use-disorder "Treatment for Substance Use Disorder"
+* subject = Reference(alice-freeman-example-patient)
 * valueCodeableConcept = vdor-custom-code-system#od-treatment-substance-use-disorder-2 "Current treatment"
 * note[0].text = "Assertive community treatment"
