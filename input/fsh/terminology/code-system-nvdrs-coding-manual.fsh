@@ -1,6 +1,6 @@
 CodeSystem: NVDRSCodingManualCodes
 Id: nvdrs-coding-manual-cs
-Title: "NVDRS Coding Manual Codes"
+Title: "VDOR - NVDRS Coding Manual Codes"
 Description: "Code system defined for use in the VDOR IG artifacts based on the NVDRS Coding Manual."
 * ^caseSensitive = true
 * ^experimental = true
