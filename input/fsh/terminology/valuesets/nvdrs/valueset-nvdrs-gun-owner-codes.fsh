@@ -1,5 +1,5 @@
 ValueSet: VDORGunOwnerCodesVS
-Title: "VDOR Coding Manual Gun Owner Codes Value Set"
+Title: "VDOR - NVDRS Coding Manual Gun Owner Codes Value Set"
 Id: vdor-gun-owner-codes-vs
 Description: "NVDRS Coding Manual values for Gun Owner."
 * include nvdrs-coding-manual-cs#GunOwner1 "Shooter"

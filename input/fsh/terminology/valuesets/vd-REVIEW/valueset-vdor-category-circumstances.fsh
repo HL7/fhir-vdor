@@ -1,0 +1,16 @@
+ValueSet: VDORViolentDeathCircumstancesCategoryValueset
+Title: "VDOR Violent Death - Circumstances Category Value Set"
+Id: vdor-circumstances-category-vs
+Description:  "Observation codes that fall under the Violent Death Circumstances Category."
+* include vdor-custom-code-system#playing-with-firearm "Playing with Firearm"
+* include vdor-custom-code-system#gang-related "Gang Related"
+* include vdor-custom-code-system#self-harm "Non-suicidal self-Injury/self-harm"
+* include vdor-custom-code-system#death-abuse "Abuse or neglect led to death"
+* include vdor-custom-code-system#current-depressed-mood "Current depressed mood"
+* include vdor-custom-code-system#random-violence "Incident is Random Violence"
+* include vdor-custom-code-system#school-problem "School Problem"
+* include vdor-custom-code-system#history-of-suicide-attempts "History of Suicide Attempts"
+* include vdor-custom-code-system#drive-by-shooting "Drive-by Shooting"
+* include vdor-custom-code-system#drug-involvement "Drug Involvement"
+* include vdor-custom-code-system#person-left-a-suicide-note "Person Left a Suicide Note"
+* include $loinc#11331-6 "History of Alcohol Use"

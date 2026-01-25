@@ -1,5 +1,5 @@
 ValueSet: NVDRSGangRelatedVS
-Title: "NVDRS Coding Manual Gang Related Codes Value Set"
+Title: "VDOR - NVDRS Coding Manual Gang Related Codes Value Set"
 Id: nvdrs-gang-related-vs
 Description: "NVDRS Coding Manual values for Gun Owner."
 * include nvdrs-coding-manual-cs#GangRelated0 "No, Not available, Unknown"
