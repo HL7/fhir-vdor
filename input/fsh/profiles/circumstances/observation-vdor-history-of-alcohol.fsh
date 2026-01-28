@@ -1,7 +1,7 @@
-Profile: NVDRSHistoryOfAlcoholUse
-Parent: nvdrs-circumstances
-Id: nvdrs-history-alcohol-use
-Title: "NVDRS History of Alcohol Use (Alcohol Problem)"
+Profile: VDORHistoryOfAlcoholUse
+Parent: vdor-circumstances
+Id: vdor-history-alcohol-use
+Title: "VDOR Circumstances - History of Alcohol Use (Alcohol Problem)"
 Description: "Defines constraints on the Observation resource to capture whether or not the decedent has a history of alcohol use (alcohol problem)."
 * ^experimental = true
 * ^publisher = "Georgia Tech Research Institute"

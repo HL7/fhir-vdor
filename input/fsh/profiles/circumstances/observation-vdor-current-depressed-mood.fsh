@@ -1,7 +1,7 @@
 Profile: VDORCurrentDepressedMood
 Parent: vdor-circumstances
 Id: vdor-current-depressed-mood
-Title: "VDOR Violent Death - Current Depressed Mood"
+Title: "VDOR Circumstances - Current Depressed Mood"
 Description: "Defines constraints on the Observation resource to capture whether or not the decedent was depressed at or around death."
 * ^experimental = true
 * ^publisher = "Georgia Tech Research Institute"
