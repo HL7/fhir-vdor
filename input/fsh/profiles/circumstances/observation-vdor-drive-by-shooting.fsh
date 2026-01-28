@@ -1,7 +1,7 @@
 Profile: VDORDriveByShooting
 Parent: vdor-circumstances
 Id: vdor-drive-by-shooting
-Title: "VDOR Violent Death - Drive-by Shooting"
+Title: "VDOR Circumstances - Drive-by Shooting"
 Description: "Victim was killed in shooting where the suspect or group of suspects drives near the victim or target and
 shoots while driving or uses a car to approach and flee the scene of a homicide but steps out of the car
 just long enough to use a weapon."

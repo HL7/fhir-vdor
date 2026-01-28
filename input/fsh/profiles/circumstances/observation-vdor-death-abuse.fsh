@@ -1,7 +1,7 @@
 Profile: VDORDeathAbuse
 Parent: vdor-circumstances
 Id: vdor-death-abuse
-Title: "VDOR Violent Death - Abuse or Neglect Led to Death (Death Abuse)"
+Title: "VDOR Circumstances - Abuse or Neglect Led to Death (Death Abuse)"
 Description: "Defines constraints on the Observation resource to capture whether or not abuse or neglect led to death (Death Abuse)."
 * ^experimental = true
 * ^publisher = "Georgia Tech Research Institute"
