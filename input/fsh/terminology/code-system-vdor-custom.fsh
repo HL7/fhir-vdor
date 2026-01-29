@@ -1,13 +1,13 @@
 CodeSystem: VDORCustom
 Id: vdor-custom-code-system
-Title: "VDOR IG Custom Codes"
-Description: "Code system defined for use in VDOR IG artifacts."
+Title: "VDOR Implementation Guide Custom Defined Codes"
+Description: "Code system defined for use in VDOR Implementation Guide artifacts."
 * ^caseSensitive = true
 * ^experimental = true
 
 // NOTE: This is temporarily inclusive of the codes defined as part of the draft NVDRS IG.
 
-// Document Types (Import Type)
+// Document Types (NVDRS/SUDORS Import Type)
 * #dc-report "DC Report"
 * #cme-report "C/ME Report"
 * #icd-10 "ICD-10" // TODO: Need context on this.

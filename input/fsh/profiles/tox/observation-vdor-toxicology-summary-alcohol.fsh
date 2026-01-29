@@ -1,7 +1,7 @@
 Profile: VDORToxicologySummaryAlcohol
 Parent: vdor-toxicology-summary
 Id: vdor-toxicology-summary-alcohol
-Title: "VDOR Toxicology Summary Alcohol Tested Observation"
+Title: "VDOR Toxicology Summary - Alcohol Tested Observation"
 Description: "Defines constraints on the Observation resource to represent the set of Toxicology Summary section of SUDORS."
 * ^experimental = true
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"

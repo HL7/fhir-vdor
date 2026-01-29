@@ -63,10 +63,21 @@ groups:
     - vdor-toxicology-summary
     - vdor-toxicology-summary-alcohol
     - vdor-toxicology-summary-carbon-monoxide
-  Weapons:
+  CircumstancesProfiles:
+    name: Circumstances Profiles
+    description: Profiles in the Circumstances category.
+    resources:
+    - vdor-circumstances
+    - vdor-current-depressed-mood
+    - vdor-death-abuse
+    - vdor-drive-by-shooting
+  WeaponsProfiles:
     name: Weapons Profiles
     description: Profiles in the Weapons category.
-    # resources:
+    resources:
+    - vdor-weapons
+    - vdor-weapon-type
+    - vdor-firearm
   OverdoseProfiles:
     name: Overdose Profiles
     description: Profiles in the Overdose category.
