@@ -1,5 +1,5 @@
 Profile: VDOROverdoseLastKnownAlive
-Parent: Observation
+Parent: vdor-overdose
 Id: vdor-od-lnka
 Title: "VDOR Overdose - Time/Date Last Known Alive and Well Pre-overdose"
 Description: "Defines constraints on the Observation resource to represent an Overdose profile."

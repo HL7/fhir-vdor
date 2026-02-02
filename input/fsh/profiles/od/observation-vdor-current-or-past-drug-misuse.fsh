@@ -1,5 +1,5 @@
 Profile: VDOROverdoseCurrentOrPastDrugMisuse
-Parent: Observation
+Parent: vdor-overdose
 Id: vdor-od-current-or-past-drug-misuse
 Title: "VDOR Overdose - Current or Past Prescription Drug Misuse or Illicit Drug Use"
 Description: "Defines constraints on the Observation resource to represent an Overdose profile."

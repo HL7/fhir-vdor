@@ -1,5 +1,5 @@
 Profile: VDOROverdoseUseOfPrescriptionMorphine
-Parent: Observation
+Parent: vdor-overdose
 Id: vdor-od-use-of-prescription-morphine
 Title: "VDOR Overdose - Use of Prescription Morphine"
 Description: "Defines constraints on the Observation resource to represent an Overdose profile."

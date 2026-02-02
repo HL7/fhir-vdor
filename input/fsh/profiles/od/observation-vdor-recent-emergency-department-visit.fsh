@@ -1,5 +1,5 @@
 Profile: VDOROverdoseRecentEmergencyDepartmentVisit
-Parent: Observation
+Parent: vdor-overdose
 Id: vdor-od-recent-emergency-department-visit
 Title: "VDOR Overdose - Recent Emergency Department Visit or Urgent Care Visit"
 Description: "Defines constraints on the Observation resource to represent an Overdose profile."

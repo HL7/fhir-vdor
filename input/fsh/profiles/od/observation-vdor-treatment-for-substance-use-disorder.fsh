@@ -1,5 +1,5 @@
 Profile: VDOROverdoseTreatmentForSubstanceUseDisorder
-Parent: Observation
+Parent: vdor-overdose
 Id: vdor-od-treatment-for-substance-use-disorder
 Title: "VDOR Overdose - Treatment For Substance Use Disorder"
 Description: "Defines constraints on the Observation resource to represent an Overdose profile."

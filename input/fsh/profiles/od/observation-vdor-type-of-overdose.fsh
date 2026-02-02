@@ -1,5 +1,5 @@
 Profile: VDOROverdoseTypeOfOverdose
-Parent: Observation
+Parent: vdor-overdose
 Id: vdor-od-type-of-overdose
 Title: "VDOR Overdose - Type of Overdose/poisoning"
 Description: "Defines constraints on the Observation resource to represent an Overdose profile."

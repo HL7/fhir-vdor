@@ -1,5 +1,5 @@
 Profile: VDOROverdosePreviousOverdose
-Parent: Observation
+Parent: vdor-overdose
 Id: vdor-od-previous-overdose
 Title: "VDOR Overdose - Previous Overdose"
 Description: "Defines constraints on the Observation resource to represent an Overdose profile."

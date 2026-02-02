@@ -1,5 +1,5 @@
 Profile: VDOROverdoseBystandersPresent
-Parent: Observation
+Parent: vdor-overdose
 Id: vdor-od-bystanders-present
 Title: "VDOR Overdose - Bystander(s) Present"
 Description: "Defines constraints on the Observation resource to represent an Overdose profile."

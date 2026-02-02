@@ -71,6 +71,14 @@ groups:
     - vdor-current-depressed-mood
     - vdor-death-abuse
     - vdor-drive-by-shooting
+    - vdor-gang-related
+    - vdor-history-alcohol-use
+  DemographicsProfiles:
+    name: Decedent Demographics Profiles
+    description: Profiles in the Demographics category.
+    resources:
+    - vdor-demographics
+    - vdor-demographics-social-history
   WeaponsProfiles:
     name: Weapons Profiles
     description: Profiles in the Weapons category.

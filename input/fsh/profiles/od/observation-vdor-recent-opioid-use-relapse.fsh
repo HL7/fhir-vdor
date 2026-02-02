@@ -1,5 +1,5 @@
 Profile: VDOROverdoseRecentOpiodUseRelapse
-Parent: Observation
+Parent: vdor-overdose
 Id: vdor-od-recent-opiod-use-relapse
 Title: "VDOR Overdose - Recent Opiod Use Relapse"
 Description: "Defines constraints on the Observation resource to represent an Overdose profile."

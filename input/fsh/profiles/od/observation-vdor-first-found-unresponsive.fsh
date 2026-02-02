@@ -1,5 +1,5 @@
 Profile: VDOROverdoseFirstFoundUnresponsive
-Parent: Observation
+Parent: vdor-overdose
 Id: vdor-od-first-found-unresponsive
 Title: "VDOR Overdose - Time/Date First Found Unresponsive"
 Description: "Defines constraints on the Observation resource to represent an Overdose profile."
