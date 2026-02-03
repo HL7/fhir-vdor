@@ -1,4 +1,4 @@
-Profile: NVDRSInjuryAndDeath
+Profile: VDORInjuryAndDeath
 Parent: Observation
 Id: vdor-injury-and-death
 Title: "VDOR Injury and Death - Injury and Death Category Observation"
