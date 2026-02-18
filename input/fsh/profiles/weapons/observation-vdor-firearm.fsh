@@ -35,10 +35,15 @@ Description: "Defines constraints on the Observation resource to capture informa
   // TODO: Write guidance for this, explain use of CC.text for non-coded values, add other instead of string.
 * component[model].code = vdor-custom-code-system#firearm-model "Firearm - Gun Model"
 * component[model].value[x] only string or CodeableConcept
-* component[make].valueCodeableConcept from nvdrs-firearm-model (preferred) // TODO: Test if this is same issue as above
+* component[model].valueCodeableConcept from nvdrs-firearm-model (preferred) // TODO: Test if this is same issue as above
 
 * component[caliber].code = vdor-custom-code-system#firearm-caliber "Firearm - Caliber"
 * component[caliber].value[x] only string
   // TODO: Add quantity?
 * component[gauge].code = vdor-custom-code-system#firearm-gauge "Firearm - Gauge"
 * component[gauge].value[x] only string
+
+// TODO: Setup rule on exclusive gauge vs caliber.
+// TODO: Add access narrative.
+// TODO: Add Caliber/gauge codes.
+// TODO: Discussion with NVDRS team about the handling of these fields and if they need to be separate at all.
