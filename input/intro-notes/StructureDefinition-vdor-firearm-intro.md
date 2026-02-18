@@ -40,7 +40,6 @@ This section provides detailed implementation guidance for the VDOR profile to s
 - Systems which intend to interact with the NVDRS/SUDORS platform **SHALL** require make codes to be from the
   preferred valueset binding of NCIC Make codes. For more information, see NVDRS Coding Manual Alignment.
 - Systems which intend to interact with the NVDRS/SUDORS platform **SHALL** require all codes in other fields aside from Make and Model to be from the preferred valueset bindings. For more information, see NVDRS Coding Manual Alignment.
-- Systems which intend to inter
 
 ### NCIC Gun Data Codes Alignment
 
@@ -58,6 +57,9 @@ For additional information on the specific meaning of a value you may consult th
 
 #### Additional Guidance by Field
 
+**Firearm Caliber and Firearm Gauge**
+To support processing related to the NVDRS/SUDORS platform, Firearm Caliber and Firearm Gauge are provided as separate fields.
+
 ### Related Profiles
 
-The VDOR Weapon Type profile **SHALL** always be present alongside a VDOR Firearm profile, with a type set to "Firearm". The VDOR Weapon Type resource **SHOULD** provide a focus to the VDOR Firearm profile, creating a reference explicitly documenting the weapon to which the Weapon Type resource describes.
+* The VDOR Weapon Type profile **SHALL** be present alongside a VDOR Firearm profile, with a type set to "Firearm". The VDOR Weapon Type resource **SHOULD** provide a focus to the VDOR Firearm profile, creating a reference explicitly documenting the weapon to which the Weapon Type resource describes. For more information, please see the VDOR Weapon Type profile page.
