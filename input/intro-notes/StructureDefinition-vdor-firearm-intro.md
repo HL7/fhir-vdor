@@ -47,7 +47,7 @@ A selection of Firearm Make codes from the NCIC Gun Data Codes publication are p
 
 ### NVDRS Coding Manual Alignment
 
-Following the guidelines outlined in the NVDRS Coding Manual, Firearm Make leverages the NCIC coded representation for Make values. This is generally a specific manufacturer, though some manufacturers may have distinct codes based on location of manufacture. Makes not included in the NCIC set to other with the free text string included in the CodeableConcept text field.
+Following the guidelines outlined in the NVDRS Coding Manual, Firearm Make leverages the NCIC coded representation for Make values. This is generally a specific manufacturer, though some manufacturers may have distinct codes based on location of manufacture.
 
 Firearm Model values in the are provided based on a representation of pre-loaded values within the NVDRS/SUDORS platform and are not part of the NVDRS Coding Manual. While a code from this set should always be **preferred** for improved standardization where possible, coding a value of Other and providing a plain text representation in the CodeableConcept's text field is common and valid as the codes available do not attempt to be an exhaustive list.
 
@@ -57,8 +57,14 @@ For additional information on the specific meaning of a value you may consult th
 
 #### Additional Guidance by Field
 
+**Firearm Make and Model**
+When targeting NCIC gun data codes for Firearm Make, for any any manufacturers not found in the NCIC gun make codes, the coded value *SHALL* be set to other and relevant information provided in the CodeableConcept text field. For example, if there is a known new or small manufacturer not yet captured by the NCIC codes.
+
+
 **Firearm Caliber and Firearm Gauge**
-To support processing related to the NVDRS/SUDORS platform, Firearm Caliber and Firearm Gauge are provided as separate fields.
+To support processing related to the NVDRS/SUDORS platform and avoid semantic pitfalls, Firearm Caliber and Firearm Gauge are provided as separate fields. Values in the preferred valueset are given based on the NVDRS/SUDORS platform, in alignment with common language when discussing calibers and gauges, and are not representative of absolute measurements.
+
+Caliber and Gauge are generally mututally exclusive fields and **SHALL** be used based on the type of firearm(e.g., gauge for shotguns). For rifle and shotgun combinaton firearms ("over-under" barrels) both Caliber and Gauge **SHOULD** be included. The inclusion of both fields is defined as a validation warning to improve error resolution, which may be ignored in cases when it is appropriate.
 
 ### Related Profiles
 
