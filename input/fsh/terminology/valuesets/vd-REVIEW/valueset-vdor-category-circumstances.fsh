@@ -2,6 +2,7 @@ ValueSet: VDORViolentDeathCircumstancesCategoryValueset
 Title: "VDOR Violent Death - Circumstances Category Value Set"
 Id: vdor-circumstances-category-vs
 Description:  "Observation codes that fall under the Violent Death Circumstances Category."
+* ^experimental = true
 * include vdor-custom-code-system#playing-with-firearm "Playing with Firearm"
 * include vdor-custom-code-system#gang-related "Gang Related"
 * include vdor-custom-code-system#self-harm "Non-suicidal self-Injury/self-harm"
