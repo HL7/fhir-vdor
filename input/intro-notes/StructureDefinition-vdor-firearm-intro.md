@@ -64,7 +64,7 @@ When targeting NCIC gun data codes for Firearm Make, for any any manufacturers n
 **Firearm Caliber and Firearm Gauge**
 To support processing related to the NVDRS/SUDORS platform and avoid semantic pitfalls, Firearm Caliber and Firearm Gauge are provided as separate fields. Values in the preferred valueset are given based on the NVDRS/SUDORS platform, in alignment with common language when discussing calibers and gauges, and are not representative of absolute measurements.
 
-Caliber and Gauge are generally mututally exclusive fields and **SHALL** be used based on the type of firearm(e.g., gauge for shotguns). For rifle and shotgun combinaton firearms ("over-under" barrels) both Caliber and Gauge **SHOULD** be included. The inclusion of both fields is defined as a validation warning to improve error resolution, which may be ignored in cases when it is appropriate.
+Caliber and Gauge are generally mutually exclusive fields and **SHALL** be used based on the type of firearm(e.g., gauge for shotguns). For rifle and shotgun combinaton firearms ("over-under" barrels) both Caliber and Gauge **SHOULD** be included. The inclusion of both fields is defined as a validation warning to improve error resolution, which may be ignored in cases when it is appropriate.
 
 ### Related Profiles
 
