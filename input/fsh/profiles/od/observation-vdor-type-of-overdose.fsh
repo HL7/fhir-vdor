@@ -1,5 +1,5 @@
 Profile: VDOROverdoseTypeOfOverdose
-Parent: Observation
+Parent: vdor-overdose
 Id: vdor-od-type-of-overdose
 Title: "VDOR Overdose - Type of Overdose/poisoning"
 Description: "Defines constraints on the Observation resource to represent an Overdose profile."
@@ -9,6 +9,8 @@ Description: "Defines constraints on the Observation resource to represent an Ov
 * category = vdor-custom-code-system#overdose "Overdose"
 * code MS
 * code = vdor-custom-code-system#od-type-of-od "Type of Overdose/poisoning"
+* subject 1.. MS
+* subject only Reference(VDORDecedent)
 * value[x] only CodeableConcept
 * value[x] from vdor-type-of-overdose-vs
 * note MS

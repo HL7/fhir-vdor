@@ -2,6 +2,7 @@ ValueSet: VDORDrugMisuseVS
 Title: "VDOR Indicated Prescription Drug Misuse or Illicit Drug Use"
 Id: vdor-drug-misuse-vs
 Description:  "Indicated prescription drugs misused or illicit drugs used values."
+* ^experimental = true
 * include vdor-custom-code-system#od-drug-misuse-1 "No evidence of current or past drug use/misuse"
 * include vdor-custom-code-system#od-drug-misuse-2 "Heroin"
 * include vdor-custom-code-system#od-drug-misuse-3 "Prescription opioids"

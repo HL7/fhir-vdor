@@ -2,6 +2,7 @@ ValueSet: NVDRSFirearmTypeVS
 Title: "VDOR - NVDRS Firearm Type Valueset"
 Id: nvdrs-firearm-type-vs
 Description: "NVDRS Coding Manual values for Weapon Type."
+* ^experimental = true
 * include nvdrs-coding-manual-cs#FirearmType1 "Submachine Gun"
 * include nvdrs-coding-manual-cs#FirearmType2 "Handgun, Unknown Type"
 * include nvdrs-coding-manual-cs#FirearmType3 "Handgun, Pistol- Bolt Action"

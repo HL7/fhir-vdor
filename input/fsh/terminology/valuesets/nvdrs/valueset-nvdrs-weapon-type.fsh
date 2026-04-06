@@ -2,6 +2,7 @@ ValueSet: NVDRSWeaponTypeVS
 Title: "NVDRS Weapon Type Valueset"
 Id: nvdrs-weapon-type-vs
 Description:  "Official NVDRS Coding Manual Weapon Type code ValueSet."
+* ^experimental = true
 * include nvdrs-coding-manual-cs#WeaponType1 "Firearm"
 * include nvdrs-coding-manual-cs#WeaponType5 "Non-powder gun"
 * include nvdrs-coding-manual-cs#WeaponType6 "Sharp instrument"

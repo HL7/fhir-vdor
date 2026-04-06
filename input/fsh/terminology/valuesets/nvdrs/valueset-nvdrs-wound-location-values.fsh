@@ -2,6 +2,7 @@ ValueSet: NVDRSWoundLocationValuesVS
 Title: "VDOR - NVDRS Wound Location Response Options Observation Codes"
 Id: nvdrs-wound-location-values-vs
 Description: "Official NVDRS Coding Manual Wound Location Response Options code ValueSet."
+* ^experimental = true
 // TODO: Create mapping from SCT?
 * include nvdrs-coding-manual-cs#WoundLocation0 "Absent (not wounded)"
 * include nvdrs-coding-manual-cs#WoundLocation1 "Present (wounded)"

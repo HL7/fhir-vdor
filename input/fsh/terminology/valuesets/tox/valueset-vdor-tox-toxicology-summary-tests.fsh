@@ -2,7 +2,7 @@ ValueSet: VDORToxicologySummaryTestsValueSet
 Title: "VDOR Toxicology Summary Tests Value Set"
 Id: vdor-toxicology-summary-tests-vs
 Description:  "Observation codes for tests captured as part of the SUDORS Toxicology Summary."
-
+* ^experimental = true
 * include vdor-custom-code-system#ts-alcohol "Alcohol Test and BAC"
 * include vdor-custom-code-system#ts-amphetimines "Amphetimines Test"
 * include vdor-custom-code-system#ts-anticonvulsants "Anticonvulsants Test"

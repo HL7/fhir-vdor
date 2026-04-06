@@ -1,5 +1,5 @@
 Profile: VDOROverdoseRecentEmergencyDepartmentVisit
-Parent: Observation
+Parent: vdor-overdose
 Id: vdor-od-recent-emergency-department-visit
 Title: "VDOR Overdose - Recent Emergency Department Visit or Urgent Care Visit"
 Description: "Defines constraints on the Observation resource to represent an Overdose profile."
@@ -9,5 +9,7 @@ Description: "Defines constraints on the Observation resource to represent an Ov
 * category = vdor-custom-code-system#overdose "Overdose"
 * code MS
 * code = vdor-custom-code-system#od-recent-emergency-department-visit "Recent Emergency Department Visit or Urgent Care Visit"
+* subject 1.. MS
+* subject only Reference(VDORDecedent)
 * value[x] only CodeableConcept
 * value[x] from vdor-recent-emergency-department-visit-vs

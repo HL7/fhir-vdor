@@ -9,7 +9,8 @@ Description: "Defines constraints on the Observation resource to represent the s
 * category = vdor-custom-code-system#toxicology "Toxicology"
 * code MS
 * code from vdor-toxicology-summary-tests-vs (required)
-
+* subject 1.. MS
+* subject only Reference(VDORDecedent)
 * component ..* MS
 * component ^slicing.discriminator.type = #pattern
 * component ^slicing.discriminator.path = "code"
