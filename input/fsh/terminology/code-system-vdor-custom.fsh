@@ -102,7 +102,7 @@ Description: "Code system defined for use in VDOR Implementation Guide artifacts
 * #ts-carbonmonoxide "Carbon Monoxide Test Result and Source"
 * #ts-cocaine "Cocaine Test Result"
 * #ts-marijuana "Marijuana Test Result"
-* #ts-musclerelaxers" "Muscle Relaxers Test Result"
+* #ts-musclerelaxers "Muscle Relaxers Test Result"
 * #ts-opiate "Opiate Test Result"
 
 // ------------------------------------- //
