@@ -5,8 +5,6 @@ Title: "VDOR Toxicology Summary Carbon Monoxide Tested Observation"
 Description: "Defines constraints on the Observation resource to represent the set of Toxicology Summary section of SUDORS."
 * ^experimental = true
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
-* category MS
-* category = vdor-custom-code-system#toxicology "Toxicology"
 * code MS
 * code = vdor-custom-code-system#ts-carbonmonoxide "Carbon Monoxide Test Result and Source"
 * component contains
