@@ -77,7 +77,7 @@ Description: "Code system defined for use in VDOR Implementation Guide artifacts
 * #number-of-deaths "Number of Deaths"
 
 // Custom Toxicology codes
-* #amphetimines "Amphetimines Tested"
+* #amphetamines "Amphetamines Tested"
     "Decedent was tested for presence of amphetimines."
 
 // Wound Location Codes
@@ -93,7 +93,7 @@ Description: "Code system defined for use in VDOR Implementation Guide artifacts
 
 // Toxicology Summary Codes
 * #ts-alcohol "Alcohol Test Result (BAC)"
-* #ts-amphetimines "Amphetimines Test Result"
+* #ts-amphetamines "Amphetamines Test Result"
 * #ts-anticonvulsants "Anticonvulsants Test Result"
 * #ts-antidepressants "Antidepressant Test Result"
 * #ts-atipsychotics "Antipsychotic Test Result"
