@@ -1,6 +1,6 @@
 Profile: VDORPlayingWithFirearm
 Parent: vdor-circumstances
-Id: nvdrs-playing-with-firearm
+Id: vdor-playing-with-firearm
 Title: "VODR Circumstances - Playing With Firearm"
 Description: "Defines constraints on the Observation resource to capture whether or not the victim was playing with a firearm." // TODO: Complete desc.
 * ^experimental = true

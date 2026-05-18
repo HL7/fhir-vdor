@@ -78,7 +78,7 @@ Description: "Code system defined for use in VDOR Implementation Guide artifacts
 
 // Custom Toxicology codes
 * #amphetamines "Amphetamines Tested"
-    "Decedent was tested for presence of amphetimines."
+    "Decedent was tested for presence of amphetamines."
 
 // Wound Location Codes
 * #wound-to-the-head "Wound to the head"

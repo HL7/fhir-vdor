@@ -73,12 +73,28 @@ groups:
     - vdor-drive-by-shooting
     - vdor-gang-related
     - vdor-history-alcohol-use
+    - vdor-history-of-self-harm
+    - vdor-history-of-suicide-attempts
+    - vdor-person-left-a-suicide-note
+    - vdor-playing-with-firearm
+    - vdor-random-violence
+    - vdor-school-problem
+  InjuryAndDeathProfiles:
+    name: Injury and Death Profiles
+    description: Profiles in the Injury and Death category.
+    resources:
+    - vdor-injury-and-death
+    - vdor-ems-at-scene
+    - vdor-number-of-bullets
+    - vdor-victim-in-custody-when-injured
+    - vdor-wound-location
   DemographicsProfiles:
     name: Decedent Demographics Profiles
     description: Profiles in the Demographics category.
     resources:
     - vdor-demographics
     - vdor-demographics-social-history
+    - vdor-homeless-at-death
   WeaponsProfiles:
     name: Weapons Profiles
     description: Profiles in the Weapons category.
@@ -86,10 +102,16 @@ groups:
     - vdor-weapons
     - vdor-weapon-type
     - vdor-firearm
+  SuspectsProfiles:
+    name: SuspectsProfiles
+    description: Profiles in the Suspects category.
+    resources:
+    - vdor-suspects
   OverdoseProfiles:
     name: Overdose Profiles
     description: Profiles in the Overdose category.
     resources:
+    - vdor-overdose
     - vdor-od-bystanders-present
     - vdor-od-current-or-past-drug-misuse
     - vdor-od-evidence-of-drug-use
@@ -101,6 +123,12 @@ groups:
     - vdor-od-treatment-for-substance-use-disorder
     - vdor-od-type-of-overdose
     - vdor-od-use-of-prescription-morphine
+  OtherProfiles:
+    name: Other Profiles
+    description: Profiles without a standardized category per the NVDRS/SUDORS platform.
+    resources:
+    - vdor-history-of-mental-illness
+    - vdor-suicide-note-content   
   NVDRSExtensions:
     name: NVDRS Extensions
     description: Extensions for management of records in the NVDRS/SUDORS platform.
