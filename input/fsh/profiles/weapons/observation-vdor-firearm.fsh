@@ -31,20 +31,22 @@ Description: "Defines constraints on the Observation resource to capture informa
 * component[type].value[x] from nvdrs-firearm-type-vs (preferred)
 * component[make].code = vdor-custom-code-system#firearm-make "Firearm - Gun Make or NCIC Code"
 * component[make].value[x] only CodeableConcept // TODO Remove string, use other with CC.text
-* component[make].valueCodeableConcept from ncic-firearm-make (preferred) // TODO: Fix this so it doesn't display oddly in the rendered HTML
+* component[make].valueCodeableConcept from ncic-firearm-make-vs (preferred) // TODO: Fix this so it doesn't display oddly in the rendered HTML
   
   // TODO: Write guidance for this, explain use of CC.text for non-coded values, add other instead of string.
 * component[model].code = vdor-custom-code-system#firearm-model "Firearm - Gun Model"
 * component[model].value[x] only CodeableConcept
-* component[model].valueCodeableConcept from nvdrs-firearm-model (preferred) // TODO: Test if this is same issue as above
+* component[model].valueCodeableConcept from nvdrs-firearm-model-vs (preferred) // TODO: Test if this is same issue as above
 
 * component[caliber].code = vdor-custom-code-system#firearm-caliber "Firearm - Caliber"
-* component[caliber].value[x] only string
+* component[caliber].value[x] only CodeableConcept or string
+* component[caliber].valueCodeableConcept from nvdrs-firearm-caliber-vs (preferred)
+
   // TODO: Add quantity?
 * component[gauge].code = vdor-custom-code-system#firearm-gauge "Firearm - Gauge"
-* component[gauge].value[x] only string
+* component[gauge].value[x] only CodeableConcept or string
+* component[gauge].valueCodeableConcept from nvdrs-firearm-gauge-vs (preferred)
+
 
 // TODO: Setup rule on exclusive gauge vs caliber.
 // TODO: Add access narrative.
-// TODO: Add Caliber/gauge codes.
-// TODO: Discussion with NVDRS team about the handling of these fields and if they need to be separate at all.

@@ -60,12 +60,14 @@ For additional information on the specific meaning of a value you may consult th
 **Firearm Make and Model**
 When targeting NCIC gun data codes for Firearm Make, for any any manufacturers not found in the NCIC gun make codes, the coded value *SHALL* be set to other and relevant information provided in the CodeableConcept text field. For example, if there is a known new or small manufacturer not yet captured by the NCIC codes.
 
-
 **Firearm Caliber and Firearm Gauge**
 To support processing related to the NVDRS/SUDORS platform and avoid semantic pitfalls, Firearm Caliber and Firearm Gauge are provided as separate fields. Values in the preferred valueset are given based on the NVDRS/SUDORS platform, in alignment with common language when discussing calibers and gauges, and are not representative of absolute measurements.
 
 Caliber and Gauge are generally mutually exclusive fields and **SHALL** be used based on the type of firearm(e.g., gauge for shotguns). For rifle and shotgun combinaton firearms ("over-under" barrels) both Caliber and Gauge **SHOULD** be included. The inclusion of both fields is defined as a validation warning to improve error resolution, which may be ignored in cases when it is appropriate.
 
+**Note:** The Firearm Gauge valueset includes .410 bore, which, while technically measured in bore (decimal inches) rather than gauge, is included for practical implementation purposes as it represents the standard measurement for .410 shotgun shells and aligns with NVDRS/SUDORS platform specifications.
+
 ### Related Profiles
 
 * The VDOR Weapon Type profile **SHALL** be present alongside a VDOR Firearm profile, with a type set to "Firearm". The VDOR Weapon Type resource **SHOULD** provide a focus to the VDOR Firearm profile, creating a reference explicitly documenting the weapon to which the Weapon Type resource describes. For more information, please see the VDOR Weapon Type profile page.
+

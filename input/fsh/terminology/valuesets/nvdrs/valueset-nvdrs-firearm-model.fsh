@@ -1,5 +1,6 @@
 ValueSet: NVDRSFirearmModelVS
-Title: "VDOR - NVDRS Firearm Model Valueset"
+Title: "VDOR - NVDRS Firearm Model Codes"
 Id: nvdrs-firearm-model-vs
-Description: "NVDRS database values for Firearm Model."
+Description:  "Sample valueset capturing a set of NVDRS Firearm Model codes."
 * ^experimental = true
+* include codes from system vdor-nvdrs-gun-models
