@@ -8,4 +8,5 @@ Description: "Defines constraints on the Observation resource to capture items i
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * category 1..1 MS
 * category = vdor-custom-code-system#demographics "Demographics"
-* code MS
+* code 
+* code from vdor-demographics-category-vs (extensible)

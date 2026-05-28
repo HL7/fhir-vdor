@@ -9,4 +9,5 @@ Description: "Defines constraints on the Observation resource to capture items i
 * category 1..1 MS
 * category = vdor-custom-code-system#suspects "Suspect(s)"
 * code MS
-// * code from nvdrs-weapons-vs (required) // TODO: Create VS for Suspects Obs
+// TODO: Uncomment once VS fleshed out
+// * code from vdor-suspects-category-vs (extensible)

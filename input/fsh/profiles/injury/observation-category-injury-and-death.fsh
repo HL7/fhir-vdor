@@ -9,4 +9,4 @@ Description: "Defines constraints on the Observation resource to capture items i
 * category 1..1 MS
 * category = vdor-custom-code-system#injury-and-death "Injury and Death"
 * code MS
-// * code from nvdrs-weapons-vs (required) // TODO: Create VS for Injury and Death Obs
+* code from vdor-injury-and-death-category-vs (extensible)

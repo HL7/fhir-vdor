@@ -183,6 +183,7 @@ groups:
 menu:
   Home: index.html
   Artifacts: artifacts.html
+  Requirements: requirements.html
 
 parameters:
   path-pages:

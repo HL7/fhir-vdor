@@ -1,4 +1,3 @@
-
 **Example Usage Scenarios:**
 
 The following are example usage scenarios for this profile:
@@ -8,7 +7,13 @@ The following are example usage scenarios for this profile:
 
 ### Mandatory and Must Support Data Elements
 
-**Each Firearm Must Support:**
+*In addition* to the Mandatory and Must Support data elements in the VDOR Weapons Category profile, the following data elements must always be present or must be supported if the data is present*.
+
+**Each Firearm Observation Must Have:**
+
+
+
+**Each Firearm Observation Must Support:**
 
 1. A component of type
 1. A component of make

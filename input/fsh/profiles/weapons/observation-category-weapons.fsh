@@ -9,4 +9,4 @@ Description: "Defines constraints on the Observation resource to capture items i
 * category 1..1 MS
 * category = vdor-custom-code-system#weapons "Weapon(s)"
 * code MS
-* code from vdor-weapons-category-vs (required)
+* code from vdor-weapons-category-vs (extensible)

@@ -2,7 +2,7 @@ Profile: VDORFirearm
 Parent: vdor-weapons
 Id: vdor-firearm
 Title: "VDOR Weapons - Firearm"
-Description: "Defines constraints on the Observation resource to capture information on a Firearm for VDRS records."
+Description: "The VDOR Weapons - Firearm profile inherits from the VDOR Weapons category profile. This profile defines constraints on the Observation resource to capture information on a Firearm for VDRS records."
 * ^experimental = true
 * ^publisher = "Georgia Tech Research Institute"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
