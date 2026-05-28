@@ -18,7 +18,7 @@ Description: "Defines constraints to the Composition resource in order to packag
 * type from nvdrs-document-types-vs (required)
 //* type = $loinc#55751-2 // TODO: Identify proper code or create custom.
 * subject 1..1 MS
-* subject only Reference(VDORDecedent) TODO: Switch to decedent child profile
+* subject only Reference(VDORDecedent)
 * date 1..1 MS
 * title 1..1 MS
 * title = "VDOR Document"
