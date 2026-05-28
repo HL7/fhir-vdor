@@ -4,8 +4,6 @@ Id: vdor-document-bundle
 Title: "VDOR Document Bundle Profile"
 Description: "Defines constraints to the Bundle resource in order to package VDOR (e.g. NVDRS and SUDORS) related data elements as FHIR into a single document."
 * ^experimental = true
-* ^publisher = "Georgia Tech Research Institute"
-* ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * type = #document (exactly)
 * identifier 1..1 MS
 * timestamp 1..1 MS

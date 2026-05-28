@@ -9,5 +9,6 @@ Description: "Defines constraints on the Observation resource to capture items i
 * category 1..1 MS
 * category = vdor-custom-code-system#suspects "Suspect(s)"
 * code MS
-// TODO: Uncomment once VS fleshed out
-// * code from vdor-suspects-category-vs (extensible)
+* code from vdor-suspects-category-vs (extensible)
+* subject 1..1 MS
+* subject only Reference(VDORDecedent)

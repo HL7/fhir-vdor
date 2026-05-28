@@ -10,3 +10,5 @@ Description: "Defines constraints on the Observation resource to capture items i
 * category = vdor-custom-code-system#demographics "Demographics"
 * code 
 * code from vdor-demographics-category-vs (extensible)
+* subject 1..1 MS
+* subject only Reference(VDORDecedent)

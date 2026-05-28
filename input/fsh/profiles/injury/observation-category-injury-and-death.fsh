@@ -10,3 +10,5 @@ Description: "Defines constraints on the Observation resource to capture items i
 * category = vdor-custom-code-system#injury-and-death "Injury and Death"
 * code MS
 * code from vdor-injury-and-death-category-vs (extensible)
+* subject 1..1 MS
+* subject only Reference(VDORDecedent)
