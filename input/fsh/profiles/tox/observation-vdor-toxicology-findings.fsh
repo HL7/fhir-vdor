@@ -35,5 +35,7 @@ Description: "Defines constraints on the Observation resource to represent the T
   * value[x] only boolean
 * component[drug-obtained-for]
   * code = vdor-custom-code-system#drug-obtained-for "Drug Obtained For"
+  * value[x] only CodeableConcept
+  * value[x] from vdor-tox-findings-drug-obtained-for-vs (required)
 
 * specimen MS
