@@ -56,13 +56,16 @@ groups:
     - vdor-document-bundle
     - vdor-composition
     - vdor-decedent
-  ToxicologySummaryProfiles:
-    name: Toxicology Summary Profiles
-    description: Profiles in the Toxicology category related to the Toxicology Summary section.
+  ToxicologyProfiles:
+    name: Toxicology Profiles
+    description: Profiles in the Toxicology category related to the Toxicology Summary and Toxicology Findings section.
     resources:
+    - vdor-toxicology
     - vdor-toxicology-summary
     - vdor-toxicology-summary-alcohol
     - vdor-toxicology-summary-carbon-monoxide
+    - vdor-toxicology-findings
+    - vdor-toxicology-specimen
   CircumstancesProfiles:
     name: Circumstances Profiles
     description: Profiles in the Circumstances category.

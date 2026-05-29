@@ -4,8 +4,6 @@ Id: vdor-firearm
 Title: "VDOR Weapons - Firearm"
 Description: "The VDOR Weapons - Firearm profile inherits from the VDOR Weapons category profile. This profile defines constraints on the Observation resource to capture information on a Firearm for VDRS records."
 * ^experimental = true
-* ^publisher = "Georgia Tech Research Institute"
-* ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * extension contains 
     vdor-firearm-stolen-extension named firearm-stolen 0..1 MS and
     vdor-firearm-stored-loaded-extension named stored-loaded 0..1 MS and

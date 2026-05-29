@@ -156,3 +156,39 @@ Description: "Code system defined for use in the VDOR IG artifacts based on the 
 * #GunOwner7 "Stranger to shooter"
 * #GunOwner66 "Other (specify in gun access narrative)"
 // #GunOwner99 - Unknown is defined from SNOMED Null Flavor.
+
+
+// 8.5 Substance Name: SubstanceName
+// Uses a licensed look-up table so codes cannot be provided here.
+
+// 8.6 Substance Tested: SubstanceTested
+* #ToxTested1 "Tested"
+* #ToxTested2 "Not tested"
+// #ToxTested9 "Unknown" - Unknown is defined from SNOMED Null Flavor.
+
+// 8.7 Substance Result: SubstanceResult
+* #SubstanceResult1 "Present"
+    "e.g., \"positive,\" \"presumptive presence,\" or having a numeric level greater than 0"
+* #SubstanceResult2 "Not present"
+* #SubstanceResult8 "Not applicable"
+    "e.g., Testing was not done"
+// #SubstanceResult9 "Unknown" - Unknown is defined from SNOMED Null Flavor.
+
+// 8.8 Substance Caused Death: SubstanceCausedDeath
+// Y/N response options represented by boolean in profile.
+
+// 8.9 Person Prescribed for: DrugObtainedFor
+* #DrugObtainedFor1 "Self"
+* #DrugObtainedFor2 "Intimate Partner"
+* #DrugObtainedFor3 "Family"
+    "(non-intimate partner)"
+* #DrugObtainedFor4 "Other"
+* #DrugObtainedFor8 "Not applicable"
+    "e.g., not a prescribed drug"
+* #DrugObtainedFor9 "Relationship unknown"
+    "Relationship between decedent and the individual the drug was obtained for is not known."
+// 8.10 Substance Categories: SubstanceClass
+// Auto-populated by NVDRS/SUDORS platform.
+
+// 8.11
+// Tested response options same as 8.6 Substance Tested, use same codes

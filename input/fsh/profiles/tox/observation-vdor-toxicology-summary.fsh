@@ -1,16 +1,10 @@
 Profile: VDORToxicologySummary
-Parent: Observation
+Parent: vdor-toxicology
 Id: vdor-toxicology-summary
-Title: "VDOR Toxicology Summary Observation"
+Title: "VDOR Toxicology - Toxicology Summary Observation"
 Description: "Defines constraints on the Observation resource to represent the set of Toxicology Summary section of SUDORS."
 * ^experimental = true
-* ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
-* category 1..1 MS
-* category = vdor-custom-code-system#toxicology "Toxicology"
-* code MS
 * code from vdor-toxicology-summary-tests-vs (required)
-* subject 1.. MS
-* subject only Reference(VDORDecedent)
 * component ..* MS
 * component ^slicing.discriminator.type = #pattern
 * component ^slicing.discriminator.path = "code"
@@ -22,7 +16,7 @@ Description: "Defines constraints on the Observation resource to represent the s
 * component[tested]
   * code = vdor-custom-code-system#tox-summary-component-tested "Test Performed"
   * value[x] only CodeableConcept
-  * value[x] from vdor-tox-summary-tested-vs (required)
+  * value[x] from vdor-tox-substance-tested-vs (required)
 * component[results]
   * code = vdor-custom-code-system#tox-summary-component-results "Results"
   * value[x] only CodeableConcept

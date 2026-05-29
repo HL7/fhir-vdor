@@ -69,6 +69,17 @@ Description: "Code system defined for use in VDOR Implementation Guide artifacts
 * #number-of-bullets "Number of Bullets"
 * #ems-at-scene "EMS at Scene"
 
+// Toxicology Codes
+* #toxicology-findings "Toxicology Findings"
+
+// Toxicology Findings Component Codes
+* #substance-name "Substance Name"
+* #substance-tested "Substance Tested"
+* #substance-result "Substance Result"
+* #substance-caused-death "Substance Caused Death"
+* #drug-obtained-for "Drug Obtained For"
+
+
 // Non NVDRS Codes
 // Note: These are defined to close gaps with state VDRS systems.
 * #suicide-note-content "Suicide Note Content"
@@ -201,11 +212,7 @@ Description: "Code system defined for use in VDOR Implementation Guide artifacts
 * #tox-summary-component-bac "Blood Alcohol Content"
 * #tox-summary-component-co-source "Source of Carbon Monoxide"
 
-// Toxicology Summary Tested VS
-* #tox-summary-tested-1 "Tested"
-* #tox-summary-tested-2 "Not Tested"
-* #tox-summary-tested-9 "Unknown"
-
+// TODO: MOVE TO NVDRS CODING MANUAL CS
 // Toxicology Summary Results VS
 * #tox-summary-results-1 "Present"
 * #tox-summary-results-2 "Not Present"

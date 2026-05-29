@@ -20,6 +20,8 @@ Alias: $vrdr-yes-no-unk-na-vs = http://hl7.org/fhir/us/vr-common-library/ValueSe
 Alias: $vrdr-manner-of-death = http://hl7.org/fhir/us/vrdr/StructureDefinition/vrdr-manner-of-death
 Alias: $vrdr-decedent = http://hl7.org/fhir/us/vrdr/StructureDefinition/vrdr-decedent
 
+// MDI Profiles
+Alias: $mdi-specimen = http://hl7.org/fhir/us/mdi/StructureDefinition/Specimen-toxicology-lab
 
 // FHIR Core Value Sets
 Alias: $FHIR-Observation-Status = http://hl7.org/fhir/observation-status
