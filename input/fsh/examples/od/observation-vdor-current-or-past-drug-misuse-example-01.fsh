@@ -6,3 +6,4 @@ Description: "Current or Past Drug Misuse - Example 01 - No indicated drug misus
 * status = $FHIR-Observation-Status#final
 * category = vdor-custom-code-system#overdose "Overdose"
 * code = vdor-custom-code-system#od-current-or-past-drug-misuse "Current or Past Prescription Drug Misuse or Illicit Drug Use"
+* subject = Reference(alice-freeman-example-patient)

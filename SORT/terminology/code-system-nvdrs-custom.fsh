@@ -75,8 +75,8 @@ Description: "Code system defined for use in the NVDRS IG artifacts."
 * #number-of-deaths "Number of Deaths"
 
 // Custom Toxicology codes
-* #amphetimines "Amphetimines Tested"
-    "Decedent was tested for presence of amphetimines."
+* #amphetamines "Amphetamines Tested"
+    "Decedent was tested for presence of amphetamines."
 
 // Wound Location Codes
 * #wound-to-the-head "Wound to the head"

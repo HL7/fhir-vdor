@@ -4,8 +4,6 @@ Id: vdor-composition
 Title: "VDOR Composition Profile"
 Description: "Defines constraints to the Composition resource in order to package VDOR related data elements as FHIR into a single document. This profile includes elements and extensions to support the NVDRS and SUDORS platform."
 * ^experimental = true
-* ^publisher = "Georgia Tech Research Institute"
-* ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 
 * extension contains 
     nvdrs-force-new-record-extension named force-new-record-control-variable 0..1 MS and
@@ -20,7 +18,7 @@ Description: "Defines constraints to the Composition resource in order to packag
 * type from nvdrs-document-types-vs (required)
 //* type = $loinc#55751-2 // TODO: Identify proper code or create custom.
 * subject 1..1 MS
-// * subject only Reference(us-cbs-patient) TODO: Switch to decedent child profile
+* subject only Reference(VDORDecedent)
 * date 1..1 MS
 * title 1..1 MS
 * title = "VDOR Document"

@@ -4,20 +4,27 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.us.vdor
-canonical: http://hl7.org/fhir/us/fhir-vdor
+canonical: http://hl7.org/fhir/us/vdor
 name: VDOR
 title: "Violent Death and Overdose Reporting (VDOR) FHIR Implementation Guide"
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
-version: 0.1.0-cibuild
+extension:
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
+    valueCode: pher 
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+    valueCode: draft
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
+    valueInteger: 0
+version: 0.1.1-cibuild
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
-releaseLabel: ci-build
+releaseLabel: CI Build
 license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: CDC NCHS
-  url: http://cdc.gov/nchs
+  name: HL7 International / Public Health
+  url: http://www.hl7.org/Special/committees/pher
   # email: test@example.org
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
@@ -39,7 +46,7 @@ dependencies:
     version: 3.0.0 
     id: hl7fhirusvrdr
   hl7.fhir.us.mdi:
-    version: 2.0.0-snapshot2
+    version: 2.0.0
     id: hl7fhirusmdi
 groups:
   BundlesAndOtherCoreProfiles:
@@ -49,13 +56,16 @@ groups:
     - vdor-document-bundle
     - vdor-composition
     - vdor-decedent
-  ToxicologySummaryProfiles:
-    name: Toxicology Summary Profiles
-    description: Profiles in the Toxicology category related to the Toxicology Summary section.
+  ToxicologyProfiles:
+    name: Toxicology Profiles
+    description: Profiles in the Toxicology category related to the Toxicology Summary and Toxicology Findings section.
     resources:
+    - vdor-toxicology
     - vdor-toxicology-summary
     - vdor-toxicology-summary-alcohol
     - vdor-toxicology-summary-carbon-monoxide
+    - vdor-toxicology-findings
+    - vdor-toxicology-specimen
   CircumstancesProfiles:
     name: Circumstances Profiles
     description: Profiles in the Circumstances category.
@@ -64,6 +74,30 @@ groups:
     - vdor-current-depressed-mood
     - vdor-death-abuse
     - vdor-drive-by-shooting
+    - vdor-gang-related
+    - vdor-history-alcohol-use
+    - vdor-history-of-self-harm
+    - vdor-history-of-suicide-attempts
+    - vdor-person-left-a-suicide-note
+    - vdor-playing-with-firearm
+    - vdor-random-violence
+    - vdor-school-problem
+  InjuryAndDeathProfiles:
+    name: Injury and Death Profiles
+    description: Profiles in the Injury and Death category.
+    resources:
+    - vdor-injury-and-death
+    - vdor-ems-at-scene
+    - vdor-number-of-bullets
+    - vdor-victim-in-custody-when-injured
+    - vdor-wound-location
+  DemographicsProfiles:
+    name: Decedent Demographics Profiles
+    description: Profiles in the Demographics category.
+    resources:
+    - vdor-demographics
+    - vdor-demographics-social-history
+    - vdor-homeless-at-death
   WeaponsProfiles:
     name: Weapons Profiles
     description: Profiles in the Weapons category.
@@ -71,10 +105,16 @@ groups:
     - vdor-weapons
     - vdor-weapon-type
     - vdor-firearm
+  SuspectsProfiles:
+    name: SuspectsProfiles
+    description: Profiles in the Suspects category.
+    resources:
+    - vdor-suspects
   OverdoseProfiles:
     name: Overdose Profiles
     description: Profiles in the Overdose category.
     resources:
+    - vdor-overdose
     - vdor-od-bystanders-present
     - vdor-od-current-or-past-drug-misuse
     - vdor-od-evidence-of-drug-use
@@ -86,6 +126,12 @@ groups:
     - vdor-od-treatment-for-substance-use-disorder
     - vdor-od-type-of-overdose
     - vdor-od-use-of-prescription-morphine
+  OtherProfiles:
+    name: Other Profiles
+    description: Profiles without a standardized category per the NVDRS/SUDORS platform.
+    resources:
+    - vdor-history-of-mental-illness
+    - vdor-suicide-note-content   
   NVDRSExtensions:
     name: NVDRS Extensions
     description: Extensions for management of records in the NVDRS/SUDORS platform.
@@ -140,7 +186,12 @@ groups:
 menu:
   Home: index.html
   Artifacts: artifacts.html
+  Requirements: requirements.html
 
+parameters:
+  path-pages:
+    - input/pagecontent
+    - input/intro-notes
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
 # │  resource. These properties are less commonly needed than those above.                         │
